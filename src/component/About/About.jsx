@@ -1,14 +1,22 @@
 import React from 'react'
-import Header from './Header'
-import './header.scss'
+import Container from '../commons/Container'
+
 import '../commons/image.scss'
+import Wrapper from '../commons/Wrapper'
+import Header from './Header'
 
 function About() {
   return (
     <div>
-        <Header>
-    
-        </Header>
+       <Header></Header>
+       <Wrapper>
+        <Container type={'all'}>
+          <h3>About</h3>
+          <p>
+            
+          </p>
+        </Container>
+       </Wrapper>
     </div>
   )
 }
