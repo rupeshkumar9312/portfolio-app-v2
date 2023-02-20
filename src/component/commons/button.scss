@@ -1,0 +1,23 @@
+.button {
+    height: 6vh;
+    width: 20vh;
+    border-bottom-left-radius: 42.5px;
+    border-bottom-right-radius: 42.5px;
+    border-top-left-radius: 42.5px;
+    border-top-right-radius: 42.5px;
+    border: 1px solid black;
+    cursor: pointer;
+    text-align: center;
+    line-height: 2vh;
+    align-items: center;
+    
+    font-family: 'Cormorant Garamond", serif;';;
+    display: flex;
+    justify-content: center;
+    &:hover{
+        background-color: #22242f;;
+        transition: all 0.3s ease-in;
+        color: white;
+    }
+    font-size: 2vh;
+}

@@ -1,0 +1,18 @@
+.item{
+    display: flex;
+    flex-direction: row;
+    background: white;
+    height: 8vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% / 6);
+    font-size: 5vh;
+    color: black;
+    &:hover{
+        background-color: black;
+        color: white;
+        transition: all 0.3s ease-in;
+        cursor: pointer;
+    }
+}
