@@ -1,15 +1,28 @@
 .name{
     font-size: 4vh;
     font-family: 'Cormorant Garamond", serif;';
+    @media screen and (max-width: 480px) {
+        font-size: 2vh;
+        font-family: sans-serif;
+    }
 }
 
 .designation{
     font-size: 3vh;
     font-family: 'Cormorant Garamond", serif;';
     margin: 5vh;
+    @media screen and (max-width: 480px) {
+        font-size: 2vh;
+        font-family: sans-serif;
+        margin: 3vh;
+    }
 }
 
 .location{
     font-size: 2vh;
     font-family: 'Cormorant Garamond", serif;';
+    @media screen and (max-width: 480px) {
+        font-size: 2vh;
+        font-family: sans-serif;
+    }
 }
